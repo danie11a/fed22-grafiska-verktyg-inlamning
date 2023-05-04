@@ -1,0 +1,428 @@
+// override bootstrap
+@import "variables";
+
+// import bootstrap
+@import "bootstrap/scss/bootstrap";
+
+
+
+// our own styles
+
+#hero {
+	// background: url('/hero-bg.jpg');
+	background:white;
+	background-size: cover;
+	background-position-x: center;
+	background-position-y: center;
+	color: $white;
+	font-family: 'Century Gothic', sans-serif;
+	font-weight: 300;
+}
+
+#testNav {
+	background-color: #E5E5E2 !important;
+}
+
+#hero {
+	font-family: 'Century Gothic', sans-serif;
+	font-weight: 400;
+}
+
+#pImg {
+	font-size: 0.7rem;
+}
+
+#h2Img {
+	font-weight: 700;
+	padding-top: 6rem;
+}
+
+#moreInfo {
+	font-size: 0.70rem;
+	left: 21.5rem;
+	text-decoration: none;
+
+}
+
+#firstBox {
+	border-left: 13px solid #CC0000;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 0.75rem;
+}
+
+#secondBox {
+	border-left: 13px solid #CC0000;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 0.75rem;
+}
+
+#thirdBox {
+	border-left: 13px solid #CC0000;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 0.75rem;
+}
+
+#whiteBox {
+	background-color: rgba(255, 255, 255, 0.5);
+	padding-bottom: 1.5rem;
+
+}
+
+#treesText {
+	padding-top: 0.5rem;
+	font-size: 0.75rem;
+	font-family: 'Century Gothic', sans-serif;
+	text-align: center;
+}
+
+#toForm {
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 0.7rem;
+	padding-left: 8.5rem;
+	text-decoration: none;
+}
+
+.job-box-image {
+	background: url('/IMG_1004.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-x: right;
+	background-position-y: center;
+	background-color: #E5E5E2 !important;
+	height: 12rem;
+	opacity: 0.78;
+  }
+
+#jobBox {
+	margin-top: 0.5rem;
+	border-left: 13px solid #CC0000;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 0.75rem;
+}
+
+.formHeading {
+	//padding: 0.1rem;
+	padding-top: 0.45rem;
+	background-color: #CC0000;
+	text-align: center;
+	font-size: 0.85rem;
+	display: block;
+	margin: 0;
+	color: white;
+}
+
+#redHeading {
+	height: 4rem;
+	background-color: #CC0000;
+	padding-top: 0.3rem;
+}
+
+.form-group {
+	padding-top: 0.5rem;
+	//padding-bottom: 0.2rem;
+	background-color: #E5E5E2;
+}
+
+.nameInput {
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 0.9rem;
+	padding-left: 1rem;
+	padding-bottom: 0.2rem;
+}
+
+#formGroupExampleInput {
+	margin-left: 0.8rem;
+	width: 88vw;
+
+}
+#formGroupExampleInput2 {
+	margin-left: 0.8rem;
+	width: 88vw;
+
+}
+
+#exampleFormControlInput3 {
+	margin-left: 0.8rem;
+	width: 88vw;
+
+}
+
+#exampleFormControlInput4 {
+	margin-left: 0.8rem;
+	width: 88vw;
+
+}
+
+#lastFormInput {
+	margin-left: 0.8rem;
+	width: 88vw;
+}
+
+#endOfForm {
+	background-color: #E5E5E2;
+	padding: 1rem;
+	text-align: right;
+}
+
+
+#ledigaJobb {
+	padding-right: 12rem;
+}
+
+
+
+
+#treesForm {
+//background-color: #E5E5E2;
+}
+
+#footerImg {
+	background: url('/fooooter.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-x: right;
+	background-position-y: center;
+	background-color: #E5E5E2 !important;
+	height: 12rem;
+	//opacity: 0.78;
+}
+
+#footerSec {
+	background-color: #E5E5E2;
+	margin-bottom: 0;
+	margin-top: 1rem;
+
+}
+
+#footer .content p {
+	color: white;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 0.8rem;
+	margin-left: 0.5rem;
+	padding-left: 0.5rem;
+  }
+
+  #footer .content i {
+	color: #822757;
+	margin-right: 1rem;
+
+  }
+
+
+
+
+
+.usp {
+	display: flex;
+	flex-direction: column;
+
+	.content {
+		background-color: #ddd;
+		flex-grow: 1;
+		// align-self: stretch;
+	}
+}
+
+@media (min-width: 416px) and (max-width: 768px) {
+    .navbar-toggler {
+        order: 3;
+        margin-left: auto;
+    }
+
+	#testNav {
+		background-color: #E5E5E2 !important;
+	}
+
+	#hero {
+		font-family: 'Century Gothic', sans-serif;
+		font-weight: 400;
+	}
+
+	#pImg {
+		font-size: 0.7rem;
+	}
+
+	#h2Img {
+		font-weight: 700;
+		padding-top: 6rem;
+	}
+
+	#moreInfo {
+		font-size: 0.70rem;
+		left: 21.5rem;
+		text-decoration: none;
+
+	}
+
+	#firstBox {
+		border-left: 13px solid #CC0000;
+		font-family: 'Century Gothic', sans-serif;
+		font-size: 0.75rem;
+	}
+
+	#secondBox {
+		border-left: 13px solid #CC0000;
+		font-family: 'Century Gothic', sans-serif;
+		font-size: 0.75rem;
+	}
+
+	#thirdBox {
+		border-left: 13px solid #CC0000;
+		font-family: 'Century Gothic', sans-serif;
+		font-size: 0.75rem;
+	}
+
+	#whiteBox {
+		background-color: rgba(255, 255, 255, 0.5);
+		padding-bottom: 1.5rem;
+
+	}
+
+	#treesText {
+		padding-top: 0.5rem;
+		font-size: 0.75rem;
+		font-family: 'Century Gothic', sans-serif;
+		text-align: center;
+	}
+
+	#toForm {
+		font-family: 'Century Gothic', sans-serif;
+		font-size: 0.7rem;
+		padding-left: 8.5rem;
+		text-decoration: none;
+	}
+
+	.job-box-image {
+		background: url('/IMG_1004.jpg');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position-x: right;
+		background-position-y: center;
+		background-color: #E5E5E2 !important;
+		height: 12rem;
+		opacity: 0.78;
+	  }
+
+	#jobBox {
+		margin-top: 0.5rem;
+		border-left: 13px solid #CC0000;
+		font-family: 'Century Gothic', sans-serif;
+		font-size: 0.75rem;
+	}
+
+	.formHeading {
+		//padding: 0.1rem;
+		padding-top: 0.45rem;
+		background-color: #CC0000;
+		text-align: center;
+		font-size: 0.85rem;
+		display: block;
+		margin: 0;
+		color: white;
+	}
+
+	#redHeading {
+		height: 4rem;
+		background-color: #CC0000;
+		padding-top: 0.3rem;
+	}
+
+	.form-group {
+		padding-top: 0.5rem;
+		//padding-bottom: 0.2rem;
+		background-color: #E5E5E2;
+	}
+
+	.nameInput {
+		font-family: 'Century Gothic', sans-serif;
+		font-size: 0.9rem;
+		padding-left: 1rem;
+		padding-bottom: 0.2rem;
+	}
+
+	#formGroupExampleInput {
+		margin-left: 0.8rem;
+		width: 88vw;
+
+	}
+	#formGroupExampleInput2 {
+		margin-left: 0.8rem;
+		width: 88vw;
+
+	}
+
+	#exampleFormControlInput3 {
+		margin-left: 0.8rem;
+		width: 88vw;
+
+	}
+
+	#exampleFormControlInput4 {
+		margin-left: 0.8rem;
+		width: 88vw;
+
+	}
+
+	#lastFormInput {
+		margin-left: 0.8rem;
+		width: 88vw;
+	}
+
+	#endOfForm {
+		background-color: #E5E5E2;
+		padding: 1rem;
+		text-align: right;
+	}
+
+
+	#ledigaJobb {
+		padding-right: 12rem;
+	}
+
+
+
+
+	#treesForm {
+	//background-color: #E5E5E2;
+	}
+
+	#footerImg {
+		background: url('/fooooter.png');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position-x: right;
+		background-position-y: center;
+		background-color: #E5E5E2 !important;
+		height: 12rem;
+		//opacity: 0.78;
+	}
+
+	#footerSec {
+		background-color: #E5E5E2;
+		margin-bottom: 0;
+		margin-top: 1rem;
+
+	}
+
+	#footer .content p {
+		color: white;
+		font-family: 'Century Gothic', sans-serif;
+		font-size: 0.8rem;
+		margin-left: 0.5rem;
+		padding-left: 0.5rem;
+	  }
+
+	  #footer .content i {
+		color: #822757;
+		margin-right: 1rem;
+
+	  }
+
+
+
+
+
+
+
+}
+
